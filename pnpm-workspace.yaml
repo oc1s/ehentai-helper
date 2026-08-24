@@ -9,6 +9,7 @@ allowBuilds:
   sharp: true
 minimumReleaseAgeExclude:
   - '@types/chrome@0.2.2'
+  - svgo@2.8.4
 onlyBuiltDependencies:
   - '@parcel/watcher'
   - '@swc/core'
@@ -16,3 +17,24 @@ onlyBuiltDependencies:
   - lmdb
   - msgpackr-extract
   - sharp
+overrides:
+  '@babel/core': 7.29.7
+  ajv@6: 6.15.0
+  axios: ^1.19.0
+  brace-expansion@1: 1.1.18
+  brace-expansion@2: 2.1.4
+  esbuild: 0.28.2
+  flatted: ^3.4.4
+  glob@10: 10.5.0
+  immutable@5: 5.1.9
+  js-yaml@4: 4.3.1
+  minimatch@3: 3.1.5
+  minimatch@9: 9.0.9
+  'msgpackr@<1.10.1': 1.12.1
+  nanoid@3: 3.3.18
+  picomatch@2: 2.3.2
+  postcss: ^8.5.26
+  sharp: 0.35.3
+  svelte@4: 4.2.20
+  svgo@2: 2.8.4
+  yaml@2: 2.8.3

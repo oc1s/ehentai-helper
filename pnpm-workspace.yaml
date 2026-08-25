@@ -23,9 +23,11 @@ overrides:
   axios: ^1.19.0
   brace-expansion@1: 1.1.18
   brace-expansion@2: 2.1.4
+  content-security-policy-parser: 0.6.0
   esbuild: 0.28.2
   flatted: ^3.4.4
   glob@10: 10.5.0
+  image-size: npm:image-size-next@2.1.1
   immutable@5: 5.1.9
   js-yaml@4: 4.3.1
   minimatch@3: 3.1.5
@@ -35,6 +37,9 @@ overrides:
   picomatch@2: 2.3.2
   postcss: ^8.5.26
   sharp: 0.35.3
-  svelte@4: 4.2.20
+  svelte: 5.56.10
   svgo@2: 2.8.4
+  tsup: 8.5.1
   yaml@2: 2.8.3
+patchedDependencies:
+  '@plasmohq/parcel-transformer-manifest@0.21.0': patches/@plasmohq__parcel-transformer-manifest.patch
